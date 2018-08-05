@@ -1,0 +1,99 @@
+2018-08-04 15:52:52.178  INFO 12644 --- [main] com.jw.MyspringbootMybatisApplication    : No active profile set, falling back to default profiles: default
+2018-08-04 15:52:52.185  INFO 12644 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63f8276e: startup date [Sat Aug 04 15:52:52 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@51e5fc98
+2018-08-04 15:52:54.107  INFO 12644 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fdd25b17-b847-3040-9dbe-7f10673c16e4
+2018-08-04 15:52:54.122  INFO 12644 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-04 15:52:54.232  INFO 12644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba274422] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-04 15:52:54.294  INFO 12644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d641471f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-04 15:52:54.634  INFO 12644 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-08-04 15:52:54.634  INFO 12644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-04 15:52:54.634  INFO 12644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-08-04 15:52:54.740  INFO 12644 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/mySpringbootMybatis]     : Initializing Spring embedded WebApplicationContext
+2018-08-04 15:52:54.740  INFO 12644 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2555 ms
+2018-08-04 15:52:54.869  INFO 12644 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-08-04 15:52:54.869  INFO 12644 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-04 15:52:54.884  INFO 12644 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-04 15:52:54.884  INFO 12644 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-04 15:52:54.884  INFO 12644 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-04 15:52:54.884  INFO 12644 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-04 15:52:54.884  INFO 12644 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-08-04 15:52:54.884  INFO 12644 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'SessionFilter' to urls: [/*, *]
+2018-08-04 15:52:54.982  INFO 12644 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-08-04 15:52:55.436  INFO 12644 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-08-04 15:52:55.639  INFO 12644 --- [main] com.config.ExecutorConfig                : start asyncServiceExecutor
+2018-08-04 15:52:55.639  INFO 12644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 
+2018-08-04 15:52:55.639  INFO 12644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'asyncServiceExecutor'
+2018-08-04 15:52:56.044  INFO 12644 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63f8276e: startup date [Sat Aug 04 15:52:52 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@51e5fc98
+2018-08-04 15:52:56.075  INFO 12644 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/gateway]}" onto public java.lang.Object com.base.GatewayController.dispatch(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-04 15:52:56.091  INFO 12644 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-04 15:52:56.091  INFO 12644 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-04 15:52:56.122  INFO 12644 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-04 15:52:56.122  INFO 12644 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-04 15:52:56.154  INFO 12644 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-04 15:52:56.494  WARN 12644 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-08-04 15:52:56.494  INFO 12644 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-04 15:52:56.494  WARN 12644 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-08-04 15:52:56.494  INFO 12644 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-04 15:52:56.541  INFO 12644 --- [main] o.s.w.s.s.s.ServerEndpointExporter       : Registering @ServerEndpoint class: class com.jw.business.websocket.server.SocketServer
+2018-08-04 15:52:56.557  INFO 12644 --- [main] o.s.w.s.s.s.ServerEndpointExporter       : Registering @ServerEndpoint class: class com.jw.business.websocket.server.SocketServerBak
+2018-08-04 15:52:56.557  INFO 12644 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-04 15:52:56.557  INFO 12644 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-08-04 15:52:56.557  INFO 12644 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-04 15:52:56.557  INFO 12644 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-08-04 15:52:56.557  INFO 12644 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-08-04 15:52:56.557  INFO 12644 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-08-04 15:52:56.557  INFO 12644 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-08-04 15:52:56.579  INFO 12644 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-08-04 15:52:56.586  INFO 12644 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=63f8276e,type=ConfigurationPropertiesRebinder]
+2018-08-04 15:52:56.590  INFO 12644 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-08-04 15:52:56.591  INFO 12644 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-08-04 15:52:56.837  INFO 12644 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-04 15:52:56.884  INFO 12644 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-08-04 15:52:56.884  INFO 12644 --- [main] com.jw.MyspringbootMybatisApplication    : Started MyspringbootMybatisApplication in 6.438 seconds (JVM running for 6.947)
+2018-08-04 15:53:00.032  INFO 12644 --- [MyExecutor-1] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:53:00.032  INFO 12644 --- [MyExecutor-2] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:53:05.015  INFO 12644 --- [MyExecutor-3] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:53:05.015  INFO 12644 --- [MyExecutor-4] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:53:10.015  INFO 12644 --- [MyExecutor-5] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:53:10.015  INFO 12644 --- [MyExecutor-1] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:53:15.016  INFO 12644 --- [MyExecutor-2] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:53:15.016  INFO 12644 --- [MyExecutor-3] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:53:20.001  INFO 12644 --- [MyExecutor-4] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:53:20.002  INFO 12644 --- [MyExecutor-5] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:53:25.001  INFO 12644 --- [MyExecutor-1] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:53:25.001  INFO 12644 --- [MyExecutor-2] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:53:30.014  INFO 12644 --- [MyExecutor-3] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:53:30.014  INFO 12644 --- [MyExecutor-4] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:53:35.002  INFO 12644 --- [MyExecutor-5] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:53:35.002  INFO 12644 --- [MyExecutor-1] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:53:40.013  INFO 12644 --- [MyExecutor-2] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:53:40.013  INFO 12644 --- [MyExecutor-3] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:53:45.001  INFO 12644 --- [MyExecutor-4] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:53:45.001  INFO 12644 --- [MyExecutor-5] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:53:50.001  INFO 12644 --- [MyExecutor-1] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:53:50.001  INFO 12644 --- [MyExecutor-2] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:53:55.013  INFO 12644 --- [MyExecutor-3] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:53:55.013  INFO 12644 --- [MyExecutor-4] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:54:00.006  INFO 12644 --- [MyExecutor-5] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:54:00.006  INFO 12644 --- [MyExecutor-1] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:54:05.016  INFO 12644 --- [MyExecutor-2] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:54:05.016  INFO 12644 --- [MyExecutor-3] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:54:10.014  INFO 12644 --- [MyExecutor-4] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:54:10.014  INFO 12644 --- [MyExecutor-5] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:54:15.016  INFO 12644 --- [MyExecutor-1] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:54:15.016  INFO 12644 --- [MyExecutor-2] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:54:20.015  INFO 12644 --- [MyExecutor-3] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:54:20.015  INFO 12644 --- [MyExecutor-4] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:54:25.015  INFO 12644 --- [MyExecutor-5] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:54:25.015  INFO 12644 --- [MyExecutor-1] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:54:30.002  INFO 12644 --- [MyExecutor-2] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:54:30.002  INFO 12644 --- [MyExecutor-3] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:54:35.011  INFO 12644 --- [MyExecutor-4] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:54:35.011  INFO 12644 --- [MyExecutor-5] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:54:40.014  INFO 12644 --- [MyExecutor-1] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:54:40.014  INFO 12644 --- [MyExecutor-2] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:54:45.002  INFO 12644 --- [MyExecutor-3] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:54:45.002  INFO 12644 --- [MyExecutor-4] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:54:50.013  INFO 12644 --- [MyExecutor-5] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:54:50.013  INFO 12644 --- [MyExecutor-1] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
+2018-08-04 15:54:55.014  INFO 12644 --- [MyExecutor-2] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器1(5s/次)运行中*****
+2018-08-04 15:54:55.014  INFO 12644 --- [MyExecutor-3] c.j.b.scheduledtask.ScheduledTask        : *****多线程定时器2(5s/次)运行中*****
