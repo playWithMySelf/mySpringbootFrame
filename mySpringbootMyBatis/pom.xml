@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.jw</groupId>
-	<artifactId>myspringboot-mybatis</artifactId>
+	<groupId>com.joins</groupId>
+	<artifactId>mySpringbootMyBatis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -25,9 +25,10 @@
 	</properties>
 
 	<dependencies>
+        <!--服务注册与发现-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <artifactId>spring-cloud-starter-consul-discovery</artifactId>
         </dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

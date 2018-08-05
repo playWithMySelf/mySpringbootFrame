@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mySpringbootFrame.iml" filepath="$PROJECT_DIR$/mySpringbootFrame.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mySpringbootMyBatis/mySpringbootMyBatis.iml" filepath="$PROJECT_DIR$/mySpringbootMyBatis/mySpringbootMyBatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mySpringbootMyBatis/mySpringbootMybatis.iml" filepath="$PROJECT_DIR$/mySpringbootMyBatis/mySpringbootMybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myZuul/myZuul.iml" filepath="$PROJECT_DIR$/myZuul/myZuul.iml" />
     </modules>
   </component>
 </project>

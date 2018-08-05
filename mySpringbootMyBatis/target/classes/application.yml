@@ -10,6 +10,14 @@ server:
 spring:
     application:
         name: mySpringbootMybatis
+    cloud:
+        consul:
+          host: localhost
+          port: 8500
+          discovery:
+            healthCheckPath: /${server.context-path}/health
+            healthCheckInterval: 15s
+            instance-id: mySpringbootMybatis
     datasource:
         name: test
         url: jdbc:mysql://127.0.0.1:3306/test

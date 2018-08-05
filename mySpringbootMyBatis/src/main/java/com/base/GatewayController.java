@@ -8,6 +8,7 @@ import jdk.nashorn.internal.parser.JSONParser;
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 import org.json.JSONObject;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.ReflectionUtils;
@@ -94,5 +95,10 @@ public class GatewayController extends BaseAction{
         return dataMap;
     }
 
+    @RequestMapping("/health")
+    @ResponseBody
+    public String checkHealth(){
+        return "I am healthy.";
+    }
 
 }

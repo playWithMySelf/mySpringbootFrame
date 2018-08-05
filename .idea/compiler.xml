@@ -7,11 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mySpringbootMyBatis" />
+        <module name="mySpringbootMybatis" />
+        <module name="myZuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mySpringbootFrame" target="1.5" />
       <module name="mySpringbootMyBatis" target="1.8" />
+      <module name="mySpringbootMybatis" target="1.8" />
+      <module name="myZuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

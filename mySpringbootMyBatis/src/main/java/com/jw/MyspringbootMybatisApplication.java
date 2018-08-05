@@ -10,6 +10,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 
 /**
@@ -17,17 +18,17 @@ import org.springframework.context.annotation.ComponentScan;
 *@description:
 *  1、SpringBootApplication ：springboot 入口标注
 *  2、MapperScan：将项目中对应的mapper类的路径加进来就可以了；多个用","隔开；也可以改成"com.*.mapper"
-*  3、EnableDiscoveryClient : 启用发现eureka client
+*  3、EnableDiscoveryClient : 启用注册与发现
 *  4、ServletComponentScan : 必须得加这个，不然filter无效
 *  5、ComponentScan ： 注解扫描包
+*  6、根据配置文件的内容去创建线程池Bean
 *@create: 2018/6/6 17:05
 */
 @SpringBootApplication
 @MapperScan("com.jw.business.*.mapper")
-//@EnableDiscoveryClient
+@EnableDiscoveryClient
 @ServletComponentScan("com.filter")
 @ComponentScan(basePackages = "com")
-//根据配置文件的内容去创建线程池Bean
 @EnableConfigurationProperties({TaskThreadPoolConfig.class})
 public class MyspringbootMybatisApplication {
 

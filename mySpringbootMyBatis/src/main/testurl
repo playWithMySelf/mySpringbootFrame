@@ -6,6 +6,8 @@ http://localhost:8080/user/getUser?pageNum=1&pageSize=10
 
 http://localhost:8080/user/getUser?pageNum=1&pageSize=10
 
+http://localhost:8769/myWeb/gateway?service=userServiceImpl&method=findAllUser&pageNum=1&pageSize=10&token=1
+http://localhost:8080/mySpringbootMybatis/health
 #
 http://localhost:8080/mySpringbootMybatis/gateway?service=userServiceImpl&method=findAllUser&pageNum=1&pageSize=10
 
